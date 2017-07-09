@@ -121,6 +121,11 @@ body {
 a {
   color: #33a6b8;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a:hover {
   color: #2a8998;
@@ -180,6 +185,11 @@ h5 a,
 h6 a {
   color: #222;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 h1 a:hover,
 h2 a:hover,
@@ -187,7 +197,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-  color: #222;
+  color: #33a6b8;
 }
 pre,
 code {
@@ -381,6 +391,11 @@ pre .deletion {
   letter-spacing: 0.2em;
   margin: 10px 0;
   border-bottom: 5px solid #222;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .blog-title:hover {
   border-color: #33a6b8;
@@ -545,6 +560,12 @@ pre .deletion {
   font-weight: bold;
   font-size: 220%;
   margin: 0;
+}
+.article-title {
+  border-bottom: 5px solid #222;
+}
+.article-title:hover {
+  border-color: #33a6b8;
 }
 .article-devider {
   width: 8%;
